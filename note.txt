@@ -1,4 +1,4 @@
-//Build a Chat App
+//Build a Chat App Playlist
 
 Intro to WebSockets
 -WebSocket is (like a phone call)
@@ -11,4 +11,14 @@ Intro to WebSockets
         -install ws
         -index.js start server (ws can create WebSocket server, but for comprehensive web server that handle both HTTP and WebSocket we will use combine with another lib, module or framework) ***
     -not broadcast to every connected
+
 Socket.io Introduction
+-difference between WebSocket and Socket.io
+-edit to ES6 syntax in config file.json -> "type": "module"
+-install nodemon in server project, socket.io
+-create server from http module and use socket.io
+    -connect with client server and manage CORS -> process.env.NODE_ENV === "production" ?
+-import socket.io lib to the frontend (use lib from CDN)?
+    -can use io by not import cause we add that (socket.io) from script so we can use automatically
+
+Have 2 Vid -> learn Auth with token when handcheck middleware
