@@ -1,0 +1,14 @@
+//Build a Chat App
+
+Intro to WebSockets
+-WebSocket is (like a phone call)
+-node.js install
+-create project
+    -app
+        -create frontend (client server we use liveServer)
+        -create app.js for connect server WebSocket that we create in index.js (server side)
+    -server
+        -install ws
+        -index.js start server (ws can create WebSocket server, but for comprehensive web server that handle both HTTP and WebSocket we will use combine with another lib, module or framework) ***
+    -not broadcast to every connected
+Socket.io Introduction
